@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Dipendenze: Db, Memcached, ScontiLoader, ScontiLoaderInterface
+ * NOTA: Dipendenze della classe
  */
 class ScontiLoaderMemcachedExended extends ScontiLoader
   {
@@ -24,7 +24,7 @@ class ScontiLoaderMemcachedExended extends ScontiLoader
   /**
    * {@inheritDocs}
    */
-  public function loadSconti()
+  public function loadSconti(): array
     {
     $key = 'sconti';
     

@@ -19,13 +19,4 @@ class PromozioniCollector
     $this->promozioni[] = $promo;
     }
   
-  /**
-   * 
-   */
-  public function getBestPromoForItem($item)
-    {
-    foreach ($this->promozioni as $promo)
-      {
-      }
-    }
   }

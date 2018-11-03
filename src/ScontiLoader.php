@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Dipendenze: Db, ScontiLoaderInterface
+ * 
  */
 class ScontiLoader implements ScontiLoaderInterface
   {
@@ -29,7 +29,7 @@ class ScontiLoader implements ScontiLoaderInterface
   /**
    * {@inheritDocs}
    */
-  public function loadSconti()
+  public function loadSconti(): array
     {
     $collection = [];
     foreach ($this->getRawData() as $row)

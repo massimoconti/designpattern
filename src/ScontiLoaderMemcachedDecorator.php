@@ -18,7 +18,7 @@ class ScontiLoaderMemcachedDecorator implements ScontiLoaderInterface
   /**
    * {@inheritDocs}
    */
-  public function loadSconti()
+  public function loadSconti(): array
     {
     $key = 'sconti';
     

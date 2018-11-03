@@ -8,5 +8,5 @@ interface ScontiLoaderInterface
   /**
    * @return Sconto[]
    */
-  public function loadSconti();
+  public function loadSconti(): array;
   }

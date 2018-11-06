@@ -13,7 +13,7 @@ use Symfony\Component\Routing\RequestContext;
 use Symfony\Component\Routing\RouteCollection;
 
 /**
- * Facade for symfony http-kernel subsystem
+ * Facade for http-kernel subsystem
  */
 class SymfonyOrchestrate
   {

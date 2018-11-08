@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 
 $db = Db::getInstance();
 
-// please welcome ScontiLoader
+// introducing ScontiLoader
 $loader = new ScontiLoader($db);
 
 $sconti = $loader->loadSconti();

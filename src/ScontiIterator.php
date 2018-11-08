@@ -3,7 +3,7 @@
 /**
  * 
  */
-class ScontiIterator implements IteratorAggregate
+class ScontiIterator implements Iterator
   {
   /**
    * @var array
